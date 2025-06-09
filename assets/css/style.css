@@ -16,6 +16,7 @@ h2 {
 body {
     background-color: #f2eee4;
     font-family: "Bodoni Moda", sans-serif;
+    color:#3c4e69;
 }
 
 /* NAV BAR */
@@ -44,11 +45,22 @@ ul {
     text-decoration: none;
   }
 
+/* HERO & HEADER */
+
 #title {
-    background: url(../images/pexels-karlsolano-11036671-lightened.jpg) no-repeat;
+    background: url(../images/hero_image-lightened.jpg) no-repeat;
     background-size: cover;
-    padding: 75px;
+    padding: 15px;
     text-align: center;
     font-size: xx-large;
     font-weight: 900;
+}
+
+/* OUR CLASSES */
+
+#classInfo >img{
+    border-radius: 8px;
+    width: 19.5%;
+    display: inline-block;
+    align-items: center;
 }
