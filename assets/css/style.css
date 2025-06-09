@@ -1,6 +1,54 @@
 /* Colour Scheme
-    red: #e30713
-    red-text: #d35158
-    black: #08090a
-    green: #014525 
-    cream: #fffbed*/
+    Navy Blue: #3c4e69
+    cream: #f2eee4
+    */
+
+h1 {
+    font-family: "Bodoni Moda", sans-serif;
+    color: #3c4e69;
+}
+
+h2 {
+    font-family: "Italianno", script;
+    color: #3c4e69;
+}
+
+body {
+    background-color: #f2eee4;
+    font-family: "Bodoni Moda", sans-serif;
+}
+
+/* NAV BAR */
+
+.active {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3c4e69;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #f2eee4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#title {
+    background: url(../images/pexels-karlsolano-11036671-lightened.jpg) no-repeat;
+    background-size: cover;
+    padding: 75px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
