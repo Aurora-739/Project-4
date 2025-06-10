@@ -63,6 +63,11 @@ ul {
     margin: 36px;
 }
 
+#classImgs {
+    display: flex;
+    flex-direction: row;
+}
+
 #classImgs > div {
     border-radius: 8px;
     width: 16%;
@@ -82,4 +87,14 @@ ul {
     flex-direction: column;
     align-items: center;
     font-size: large;
+}
+
+/* BOOKING BUTTON */
+
+#bookingButton {
+    background-color: #3c4e69;
+    color: #f2eee4;
+    border-radius: 8px;
+    padding: 36px;
+    font-family: font-family: "Bodoni Moda", sans-serif;;
 }
