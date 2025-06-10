@@ -58,9 +58,28 @@ ul {
 
 /* OUR CLASSES */
 
-#classInfo >img{
+#classes > div > h4, hr{
+    font-size: xx-large;
+    margin: 36px;
+}
+
+#classImgs > div {
     border-radius: 8px;
-    width: 19.5%;
+    width: 16%;
     display: inline-block;
     align-items: center;
+    margin: 36px;
+}
+
+#classImgs > div > img{
+    border-radius: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+.classHead > h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
 }
