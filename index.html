@@ -16,13 +16,13 @@
 <body>
     <nav>
         <ul id="nav">
-            <li><a href="index.html" class="active">
+            <li><a href="index.html" class="active hover">
                     <h3>Home</h3>
                 </a></li>
-            <li><a href="booking.html">
+            <li><a href="booking.html" class="hover">
                     <h3>Booking</h3>
                 </a></li>
-            <li><a href="reviews.html">
+            <li><a href="reviews.html" class="hover">
                     <h3>Reviews</h3>
                 </a></li>
 
@@ -39,7 +39,7 @@
             <h4>Our Classes</h4>
             <hr>
         </div>
-        <div id="classImgs">
+        <div id="classImgs" class="centered">
             <div class="classHead">
                 <img id="pilatesimg" src="assets/images/pilates.jpg" alt="women doing pilates">
                 <h4>Pilates</h4>
@@ -47,7 +47,7 @@
                     attendies. Pilates is a form of exercise that emphisizes core strength, posture, balance &
                     flexibility.
                     <br>
-                    The classes have limited space! Book Now!
+                    <a href="booking.html" class="hover">The classes have limited space! Book Now!</a>
                 </p>
             </div>
             <div class="classHead">
@@ -57,7 +57,7 @@
                     who just want to have some fun. Zumba is a dance program that comines Latin-inspired dancing with
                     cardio exercises.
                     <br>
-                    The classes have limited space! Book Now!
+                    <a href="booking.html" class="hover">The classes have limited space! Book Now!</a>
                 </p>
             </div>
             <div class="classHead">
@@ -68,7 +68,7 @@
                     room for aerobic exercises. We always have at least 2 members of staff on hand here for your own
                     peace of mind as well as personal trainers who you can book for a session!
                     <br>
-                    The trainers have limited space! Book Now!
+                    <a href="booking.html" class="hover">The trainers have limited space! Book Now!</a>
                 </p>
             </div>
             <div class="classHead">
@@ -79,7 +79,7 @@
                     class is run by Emma. Yoga is the practice of the union of the body, mind & spirit. It involves
                     physical postures or positions, breathing techniques & meditation.
                     <br>
-                    The classes have limited space! Book Now!
+                    <a href="booking.html" class="hover">The classes have limited space! Book Now!</a>
                 </p>
             </div>
             <div class="classHead">
@@ -91,13 +91,25 @@
                     ride stationary bikes to the beat of music, with an instructor guising you through different speeds
                     & resistence levels.
                     <br>
-                    The classes have limited space! Book Now!
+                    <a href="booking.html" class="hover">The classes have limited space! Book Now!</a>
                 </p>
             </div>
         </div>
-        <button id="bookingButton">
-            BOOK A CLASS NOW!
-        </button>
+        <div class="centered">
+            <button id="bookingButton" class="buttonHover">
+                <a href="booking.html">
+                    BOOK A CLASS NOW!
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <section id="mapSection">
+        <div id="map" class="centered">
+            <a href="https://www.google.com/maps/place/39-47+Provence+Dr,+Bournemouth,+Wimborne/@50.772121,-1.9423845,17z/data=!3m1!4b1!4m6!3m5!1s0x4873a394082889e5:0xd876cb885d9e9a50!8m2!3d50.7721176!4d-1.9398096!16s%2Fg%2F11rfm2v0v8?entry=ttu&g_ep=EgoyMDI1MDYwOS4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"><img src="assets/images/map.JPG" alt="image of the map location of the gym" id="mapimg"></a>
+            <h5>39-47 Provence Dr, Bournemouth, Wimborne</h5>
+        </div>
     </section>
 
 </body>
@@ -106,4 +118,6 @@
 
 </footer>
 
+
+<script src="script.js"></script>
 </html>
