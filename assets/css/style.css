@@ -185,3 +185,13 @@ footer {
     color: #f2eee4;
     font-size:xx-large;
 }
+
+
+/* BOOKING NAV */ 
+
+nav > ul > h1 {
+    color: #f2eee4;
+    float: left;
+    padding-left: 36px;
+    font-size: xx-large;
+}
