@@ -51,7 +51,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #f2eee4;
+    background-color: #3c4e69;
   }
   
   li {
@@ -60,10 +60,11 @@ ul {
   
   li a {
     display: block;
-    color: #3c4e69;
+    color: #f2eee4;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-right: 36px;
   }
  
 /* HERO & HEADER */
@@ -164,5 +165,21 @@ ul {
 
 footer {
     background-color: #3c4e69;
-    padding: 100px;
+    padding: 36px;
+}
+
+.icon {
+    color: #f2eee4;
+    margin: 50px;
+
+}
+
+.icon:hover {
+    transition: 0.5s;
+    color: #a67258;
+}
+
+#contactUs > h5{
+    color: #f2eee4;
+    font-size:xx-large;
 }
