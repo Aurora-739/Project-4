@@ -195,3 +195,27 @@ nav > ul > h1 {
     padding-left: 36px;
     font-size: xx-large;
 }
+
+/* BOOKING BODY */
+
+#booking {
+    background: url(../images/hero_image-lightened.jpg) no-repeat;
+}
+
+#box1 {
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-right: 20%;
+    height: 800px;
+    background-color: #3c4e69;
+    z-index: 0;
+}
+
+#box2 {
+    margin-left: 24%;
+    margin-top: -38%;
+    margin-right: 24%;
+    height: 650px;
+    background-color: #f2eee4;
+    z-index: 1;
+}
