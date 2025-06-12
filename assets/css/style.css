@@ -28,7 +28,19 @@ body {
     background-color: #a67258;
 }
 
+.centered {
+    text-align: center;
+    justify-content: center;
+}
+
+
 /* NAV BAR */
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 
 .active {
     font-style: italic;
@@ -39,7 +51,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3c4e69;
+    background-color: #f2eee4;
   }
   
   li {
@@ -48,17 +60,12 @@ ul {
   
   li a {
     display: block;
-    color: #f2eee4;
+    color: #3c4e69;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-
-  .centered {
-    text-align: center;
-    justify-content: center;
-}
-
+ 
 /* HERO & HEADER */
 
 #title {
@@ -67,7 +74,7 @@ ul {
     padding: 15px;
     text-align: center;
     font-size: xx-large;
-    font-weight: 900;
+    padding-top: 100px;
 }
 
 /* OUR CLASSES */
@@ -113,7 +120,7 @@ ul {
     font-family: "Bodoni Moda", sans-serif;
     border-radius: 80px;
     padding: 36px;
-    margin-bottom: 36px;
+    margin-bottom: 72px;
 }
 
 #bookingButton > a {
@@ -121,7 +128,41 @@ ul {
     text-decoration: none;
 }
 
+#bookingButton:hover {
+    transition: 0.5s;
+    background-color: #a67258;
+}
+
+/* MAP */
+
 #mapimg:hover {
+    transition: 0.5s;
+    -webkit-filter: blur(0); /* Safari 6.0 - 9.0 */
+    filter: blur(0);
+}
+
+#mapimg {
     -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
     filter: blur(5px);
+}
+
+#map{
+    padding-bottom: 36px;
+}
+
+#map > h5 > a {
+    color: #3c4e69;
+    text-decoration: none;
+}
+
+#map > h5 > a:hover {
+    color: #a67258;
+    text-decoration: none;
+}
+
+/* FOOTER */ 
+
+footer {
+    background-color: #3c4e69;
+    padding: 100px;
 }
