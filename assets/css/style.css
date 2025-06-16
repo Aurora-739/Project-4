@@ -161,6 +161,7 @@ hr {
 footer {
     background-color: #3c4e69;
     padding: 36px;
+    width: 100%;
 }
 
 .icon {
@@ -180,8 +181,15 @@ footer {
 }
 
 
-/* BOOKING NAV */
+/*BOOKING NAV*/
 
+#bookingNav > ul > h1{
+    color: #f2eee4;
+}
+
+#bookingNav > ul {
+    margin-right: 0;
+}
 
 /* BOOKING BODY */
 
@@ -193,7 +201,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 36% 2% 24% 2%;
+    margin: 36% 2% 13% 2%;
     height: 1620px;
     background-color: #3c4e69;
     z-index: 0;
