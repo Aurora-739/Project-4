@@ -17,7 +17,7 @@ h2 {
 body {
     background-color: #f2eee4;
     font-family: "Bodoni Moda", sans-serif;
-    color:#3c4e69;
+    color: #3c4e69;
 }
 
 .hover:hover {
@@ -39,6 +39,7 @@ body {
 nav {
     position: fixed;
     width: 100%;
+    
     top: 0;
     z-index: 1;
 }
@@ -49,25 +50,23 @@ nav {
 
 ul {
     list-style-type: none;
+    display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #3c4e69;
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
+}
+
+
+li > a {
     display: block;
     color: #f2eee4;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    margin-right: 36px;
-  }
- 
+    margin: auto 28px auto 28px;
+}
+
 /* HERO & HEADER */
 
 #title {
@@ -81,7 +80,8 @@ ul {
 
 /* OUR CLASSES */
 
-#classes > div > h4, hr{
+#classes>div>h4,
+hr {
     font-size: xx-large;
     margin: 36px;
 }
@@ -91,25 +91,25 @@ ul {
     flex-direction: row;
 }
 
-#classImgs > div {
+#classImgs>div {
     border-radius: 8px;
     width: 16%;
     display: inline-block;
     margin: 36px;
 }
 
-#classImgs > div > img{
+#classImgs>div>img {
     border-radius: 40px;
     width: 100%;
 }
 
-.classHead > h4 {
+.classHead>h4 {
     display: flex;
     flex-direction: column;
     font-size: large;
 }
 
-.classHead > p > a {
+.classHead>p>a {
     color: #3c4e69;
     text-decoration: none;
     font-weight: bold;
@@ -125,7 +125,7 @@ ul {
     margin-bottom: 72px;
 }
 
-#bookingButton > a {
+#bookingButton>a {
     color: #f2eee4;
     text-decoration: none;
 }
@@ -139,31 +139,33 @@ ul {
 
 #mapimg:hover {
     transition: 0.5s;
-    -webkit-filter: blur(0); /* Safari 6.0 - 9.0 */
+    -webkit-filter: blur(0);
+    /* Safari 6.0 - 9.0 */
     filter: blur(0);
 }
 
 #mapimg {
-    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
     filter: blur(5px);
     z-index: 0;
 }
 
-#map{
+#map {
     padding-bottom: 36px;
 }
 
-#map > h5 > a {
+#map>h5>a {
     color: #3c4e69;
     text-decoration: none;
 }
 
-#map > h5 > a:hover {
+#map>h5>a:hover {
     color: #a67258;
     text-decoration: none;
 }
 
-/* FOOTER */ 
+/* FOOTER */
 
 footer {
     background-color: #3c4e69;
@@ -181,15 +183,15 @@ footer {
     color: #a67258;
 }
 
-#contactUs > h5{
+#contactUs>h5 {
     color: #f2eee4;
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 
-/* BOOKING NAV */ 
+/* BOOKING NAV */
 
-nav > ul > h1 {
+bookingNav>ul>h1 {
     color: #f2eee4;
     float: left;
     padding-left: 36px;
@@ -212,7 +214,7 @@ nav > ul > h1 {
     z-index: 0;
 }
 
-#box1 > h3 {
+#box1>h3 {
     color: #f2eee4;
     font-size: xx-large;
     padding: 3%;
@@ -231,7 +233,7 @@ nav > ul > h1 {
     margin: 5% 5% auto 5%;
 }
 
-#questions > h5 {
+#questions>h5 {
     font-size: large;
     margin: 0;
 }
@@ -242,12 +244,210 @@ table {
     align-items: center;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #3c4e69;
     border-collapse: collapse;
-  }
+}
 
 .bookingHover:hover {
     background-color: #a67258;
     color: #f2eee4;
+}
+
+
+@media screen and (min-width: 1080px) {
+    /*LAPTOP / MONITER*/
+
+    /*NAV*/
+    li a {
+        padding: 14px 16px;
+        margin-right: 36px;
+    }
+
+    /* HERO & HEADER */
+
+    #title {
+        padding: 15px;
+        font-size: xx-large;
+        padding-top: 100px;
+    }
+
+    /* OUR CLASSES */
+
+    #classes>div>h4,
+    hr {
+        margin: 36px;
+    }
+
+    #classImgs {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #classImgs>div {
+        border-radius: 8px;
+        width: 16%;
+        display: inline-block;
+        margin: 36px;
+    }
+
+    #classImgs>div>img {
+        border-radius: 40px;
+        width: 100%;
+    }
+
+    .classHead>h4 {
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+    }
+
+    .classHead>p>a {
+        color: #3c4e69;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* BOOKING BUTTON */
+
+    #bookingButton {
+        background-color: #3c4e69;
+        font-family: "Bodoni Moda", sans-serif;
+        border-radius: 80px;
+        padding: 36px;
+        margin-bottom: 72px;
+    }
+
+    #bookingButton>a {
+        color: #f2eee4;
+        text-decoration: none;
+    }
+
+    #bookingButton:hover {
+        transition: 0.5s;
+        background-color: #a67258;
+    }
+
+    /* MAP */
+
+    #mapimg:hover {
+        transition: 0.5s;
+        -webkit-filter: blur(0);
+        /* Safari 6.0 - 9.0 */
+        filter: blur(0);
+    }
+
+    #mapimg {
+        -webkit-filter: blur(5px);
+        /* Safari 6.0 - 9.0 */
+        filter: blur(5px);
+        z-index: 0;
+    }
+
+    #map {
+        padding-bottom: 36px;
+    }
+
+    #map>h5>a {
+        color: #3c4e69;
+        text-decoration: none;
+    }
+
+    #map>h5>a:hover {
+        color: #a67258;
+        text-decoration: none;
+    }
+
+    /* FOOTER */
+
+    footer {
+        background-color: #3c4e69;
+        padding: 36px;
+    }
+
+    .icon {
+        color: #f2eee4;
+        margin: 50px;
+
+    }
+
+    .icon:hover {
+        transition: 0.5s;
+        color: #a67258;
+    }
+
+    #contactUs>h5 {
+        color: #f2eee4;
+        font-size: xx-large;
+    }
+
+
+    /* BOOKING NAV */
+
+    nav>ul>h1 {
+        color: #f2eee4;
+        float: left;
+        padding-left: 36px;
+        font-size: xx-large;
+    }
+
+    /* BOOKING BODY */
+
+    #booking {
+        background: url(../images/hero_image-lightened.jpg) no-repeat;
+    }
+
+    #box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10% 2% 24% 2%;
+        height: 1000px;
+        background-color: #3c4e69;
+        z-index: 0;
+    }
+
+    #box1>h3 {
+        color: #f2eee4;
+        font-size: xx-large;
+        padding: 3%;
+        align-items: start;
+        margin-top: -1%;
+    }
+
+    #box2 {
+        margin: -4% 2% 5% 2%;
+        height: 900px;
+        background-color: #f2eee4;
+        border-radius: 68px;
+    }
+
+    #questions {
+        margin: 5% 5% auto 5%;
+    }
+
+    #questions>h5 {
+        font-size: large;
+        margin: 0;
+    }
+
+    table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #3c4e69;
+        border-collapse: collapse;
+    }
+
+    .bookingHover:hover {
+        background-color: #a67258;
+        color: #f2eee4;
+    }
 }
