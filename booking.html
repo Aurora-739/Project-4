@@ -31,14 +31,127 @@
     <div id="box1">
         <h3>Book Here!</h3>
         <div id="box2">
-            <p>Choose Your Class</p>
-    
-            <p>Choose Your Day</p>
-    
-            <p>Choose Your Time</p>
+            <div id="questions">
+                <h5>Choose A Time Slot & Class</h5>
+                <p><em>PSA - the Gym is open 24/7 but choosing a time slot will be helpful for numbers</em></p>
+                <!--USE AN EVENT LISTENER IN JS to DISPLAY DIFFERENT TIMES BASED ON THE CHOICE-->
+                <table>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                    <tr>
+                        <td>6:00am - 7:00am</td>
+                        <td class="bookingHover">Advanced Pilates</td>
+                        <th class="bookingHover">Advanced Yoga</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                        <th class="bookingHover">Advanced Yoga</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                        <th class="bookingHover">Advanced Yoga</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                    </tr>
+                    <tr>
+                        <td>7:30am - 8:30am</td>
+                        <td class="bookingHover">Beginner / Intermediate Yoga</td>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                    </tr>
+                    <tr>
+                        <td>9:00am - 10:00am</td>
+                        <td class="bookingHover">Advanced Zumba</td>
+                        <th class="bookingHover">Advanced Spin</th>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                        <th class="bookingHover">Beginner / Intermediate Spin</th>
+                        <th class="bookingHover">Advanced Zumba</th>
+                        <th class="bookingHover">Advanced Spin</th>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                    </tr>
+                    <tr>
+                        <td>10:30am - 11:30am</td>
+                        <td class="bookingHover">Beginner / Intermediate Spin</td>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                        <th class="bookingHover">Advanced Spin</th>
+                        <th class="bookingHover">Advanced Zumba</th>
+                        <th class="bookingHover">Beginner / Intermediate Spin</th>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                        <th class="bookingHover">Advanced Spin</th>
+                    </tr>
+                    <tr>
+                        <td>1:00pm - 2:00pm</td>
+                        <td class="bookingHover">Beginner / Intermediate Yoga</td>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                    </tr>
+                    <tr>
+                        <td>2:30pm - 3:30pm</td>
+                        <td class="bookingHover">Advanced Spin</td>
+                        <th class="bookingHover">Advanced Spin</th>
+                        <th class="bookingHover">Advanced Spin</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                    </tr>
+                    <tr>
+                        <td>4:00pm - 5:00pm</td>
+                        <td class="bookingHover">Beginner / Intermediate Spin</td>
+                        <th class="bookingHover">Beginner / Intermediate Spin</th>
+                        <th class="bookingHover">Beginner / Intermediate Spin</th>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                    </tr>
+                    <tr>
+                        <td>5:30pm - 6:30pm</td>
+                        <td class="bookingHover">Beginner / Intermediate Spin</td>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                        <th class="bookingHover">Advanced Spin</th>
+                        <th class="bookingHover">Advanced Zumba</th>
+                        <th class="bookingHover">Beginner / Intermediate Spin</th>
+                        <th class="bookingHover">Beginner / Intermediate Zumba</th>
+                        <th class="bookingHover">Advanced Spin</th>
+                    </tr>
+                    <tr>
+                        <td>7:00pm - 8:00pm</td>
+                        <td class="bookingHover">Advanced Pilates</td>
+                        <th class="bookingHover">Advanced Yoga</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                        <th class="bookingHover">Advanced Yoga</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                        <th class="bookingHover">Advanced Yoga</th>
+                        <th class="bookingHover">Advanced Pilates</th>
+                    </tr>
+                    <tr>
+                        <td>8:30pm - 9:30pm</td>
+                        <td class="bookingHover">Beginner / Intermediate Yoga</td>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                        <th class="bookingHover">Beginner / Intermediate Pilates</th>
+                        <th class="bookingHover">Beginner / Intermediate Yoga</th>
+                    </tr>
+                </table>
+            </div>
+
         </div>
     </div>
-    
+
 </body>
 
 
