@@ -159,8 +159,8 @@ hr {
 /* FOOTER */
 
 footer {
+    position: absolute;
     background-color: #3c4e69;
-    padding: 36px;
     width: 100%;
 }
 
@@ -202,7 +202,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     margin: 36% 2% 13% 2%;
-    height: 1620px;
+    height: 1769px;
     background-color: #3c4e69;
     z-index: 0;
 }
@@ -217,7 +217,7 @@ footer {
 
 #box2 {
     margin: -4% 2% 5% 2%;
-    height: 1515px;
+    height: 1715px;
     background-color: #f2eee4;
     border-radius: 68px;
 }
